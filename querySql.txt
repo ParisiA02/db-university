@@ -1,0 +1,33 @@
+1:
+SELECT * 
+FROM teachers
+
+2:
+SELECT * 
+FROM students 
+WHERE students.name LIKE "E%"
+
+3:
+SELECT * 
+FROM students 
+WHERE enrolment_date LIKE "2021%"
+
+4:
+SELECT * 
+FROM courses 
+WHERE courses.website IS NULL
+
+5:
+SELECT * 
+FROM teachers 
+WHERE teachers.phone IS NOT NULL
+
+6:
+SELECT *
+FROM exams
+WHERE exams.date
+BETWEEN '2020-06-1' and '2020-07-31'
+
+7:
+SELECT COUNT(*) 
+FROM students
